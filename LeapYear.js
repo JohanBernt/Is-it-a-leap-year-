@@ -1,5 +1,7 @@
 function isLeap(year) {
 
+  //use modulo to follow the 'evenly divisible' rules set out in the Readme.
+  
   if (year % 4 === 0) {
     if (year % 100 === 0) {
       if (year % 400 === 0) {
